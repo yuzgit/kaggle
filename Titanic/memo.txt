@@ -1,0 +1,14 @@
+# カラム
+PassengerId    乗客識別ID
+Survived       生存フラグ(0=死亡, 1=生存)
+Pclass         チケットクラス
+Name           名前
+Sex            性別
+Age            年齢
+SibSp          同乗している兄弟・配偶者の数
+Parch          同乗している親・子供の数
+Ticket         チケット番号
+Fare           料金
+Cabin          客室番号
+Embarked　　　　出港地
+　
