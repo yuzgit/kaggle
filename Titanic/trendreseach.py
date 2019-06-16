@@ -119,3 +119,7 @@ test['AgeGroup'] = test['AgeGroup'].map(age_mapping)
 # 不要になったAgeカラムをドロップ
 train = train.drop(['Age'], axis = 1)
 test = test.drop(['Age'], axis = 1)
+
+## Name クリーニング
+train = train.drop(['Name'], axis=1)
+test = test.drop(['Name'], axis=1)
